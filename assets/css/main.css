@@ -148,11 +148,10 @@ input, select, textarea {
 	}
 
 	body, input, select, textarea {
-		text-align: justify;
-		font-family:  arial,  sans-serif
+		font-family: "Arial", sans-serif;
 		font-weight: 300;
 		font-size: 1rem;
-		line-height: 2;
+		line-height: 2.375;
 	}
 
 	a {
@@ -173,20 +172,18 @@ input, select, textarea {
 	}
 
 	em, i {
-		font-style: Arial, sans-serif;
+		font-style: "Arial", sans-serif;
 	}
 
 	p {
 		text-align: justify;
-		font-family:  Arial, sans-serif;
-		font-weight: 300;
-		font-size: 1rem;
+		font-style: "Arial", sans-serif;
 		line-height: 2;
 		margin: 0 0 2rem 0;
 	}
 
 	h1, h2, h3, h4, h5, h6 {
-		font-family: Arial, sans-serif;
+		font-family: "Source Sans Pro", Helvetica, sans-serif;
 		font-weight: 900;
 		line-height: 1.5;
 		letter-spacing: 0.075em;
@@ -243,14 +240,14 @@ input, select, textarea {
 
 	blockquote {
 		border-left: solid 4px;
-		font-style: Arial, sans-serif;
+		font-style: italic;
 		margin: 0 0 2rem 0;
 		padding: 0.5rem 0 0.5rem 2rem;
 	}
 
 	code {
 		border: solid 2px;
-		font-family: Arial, sans-serif;
+		font-family: "Courier New", monospace;
 		font-size: 0.9rem;
 		margin: 0 0.25rem;
 		padding: 0.25rem 0.65rem;
@@ -258,7 +255,7 @@ input, select, textarea {
 
 	pre {
 		-webkit-overflow-scrolling: touch;
-		font-family: Arial, sans-serif;
+		font-family: "Courier New", monospace;
 		font-size: 0.9rem;
 		margin: 0 0 2rem 0;
 	}
@@ -2925,7 +2922,10 @@ input, select, textarea {
 		}
 
 		header > p {
-			font-style: italic;
+			text-align: justify;
+		font-style: "Arial", sans-serif;
+		line-height: 2;
+		margin: 0 0 2rem 0;
 		}
 
 		header > h1 + p {
@@ -2935,18 +2935,24 @@ input, select, textarea {
 		}
 
 		header > h2 + p {
-			font-size: 1rem;
-			margin-top: -0.75rem;
+			text-align: justify;
+		font-style: "Arial", sans-serif;
+		line-height: 2;
+		margin: 0 0 2rem 0;
 		}
 
 		header > h3 + p {
-			font-size: 0.9rem;
-			margin-top: -0.75rem;
+			text-align: justify;
+		font-style: "Arial", sans-serif;
+		line-height: 2;
+		margin: 0 0 2rem 0;
 		}
 
 		header > h4 + p {
-			font-size: 0.8rem;
-			margin-top: -0.75rem;
+			text-align: justify;
+		font-style: "Arial", sans-serif;
+		line-height: 2;
+		margin: 0 0 2rem 0;
 		}
 
 		header.major {
@@ -2959,8 +2965,10 @@ input, select, textarea {
 			}
 
 			header.major > p {
-				margin-top: 0;
-				text-align: center;
+				text-align: justify;
+		font-style: "Arial", sans-serif;
+		line-height: 2;
+		margin: 0 0 2rem 0;
 			}
 
 			header.major > .date {
@@ -3396,10 +3404,10 @@ input, select, textarea {
 		}
 
 		#intro p {
-			font-size: 1.25rem;
-			font-style: italic;
-			margin-top: -0.25rem;
-			text-align: center;
+			text-align: justify;
+		font-style: "Arial", sans-serif;
+		line-height: 2;
+		margin: 0 0 2rem 0;
 		}
 
 		#intro + #header {
@@ -3485,8 +3493,10 @@ input, select, textarea {
 				}
 
 				#intro p {
-					font-size: 1rem;
-					margin-top: 0rem;
+					text-align: justify;
+		font-style: "Arial", sans-serif;
+		line-height: 2;
+		margin: 0 0 2rem 0;
 				}
 
 				#intro .actions {
@@ -4298,7 +4308,10 @@ input, select, textarea {
 		#footer form label,
 		#footer h3,
 		#footer p {
-			font-size: 0.8rem;
+			text-align: justify;
+		font-style: "Arial", sans-serif;
+		line-height: 2;
+		margin: 0 0 2rem 0;
 		}
 
 		@media screen and (max-width: 980px) {
@@ -4342,7 +4355,10 @@ input, select, textarea {
 				#footer form label,
 				#footer h3,
 				#footer p {
-					font-size: 0.9rem;
+					text-align: justify;
+					font-style: "Arial", sans-serif;
+					line-height: 2;
+					margin: 0 0 2rem 0;
 				}
 
 		}
